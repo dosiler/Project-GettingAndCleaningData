@@ -1,7 +1,8 @@
+# Project-GettingAndCleaningData
 ==================================================================
-Code Book for Course Project
-Getting and Cleaning Data
-Johns Hopkins University / Coursera
+
+Code Book for the Course Project for Johns Hopkins U class "Getting and Cleaning Data" on Coursera
+
 ==================================================================
 
 TABLE OF CONTENTS
@@ -22,7 +23,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 B. DATA SET INFORMATION
 
-<reprinted from the above link>
+(reprinted from the above link)
 "The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities ...
 
 - WALKING
