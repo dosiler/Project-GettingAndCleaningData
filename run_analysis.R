@@ -2,14 +2,11 @@
 # Download the raw data from here:
 # https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 # 
-# Extract the contents of the UCI HAR folder in the zip file to your working directory, 
-#   such that the following directories and files appear in your working directory:
-#     train <DIR>
-#     test <DIR>
-#     activity_labels.txt
-#     features.txt
-#     features_info.txt
-#     README.txt
+# Extract the contents of the zip archive to your working directory, such
+#   that the "UCI HAR Dataset" directory appears in your working directory.
+# 
+# Then, change the working directory:
+setwd('./UCI HAR Dataset')
 
 # Load plyr - this will be required at the last step, to produce the average 
 # values for each subject and activity
@@ -19,18 +16,18 @@ library(plyr)
 # It will also use the activity_labels.txt and features.txt files 
 # Load all these data files into R
 # TRAIN FILES
-x_train <- read.table("train/X_train.txt") 
-y_train <- read.table("train/y_train.txt") 
-subject_train <- read.table("train/subject_train.txt")
+x_train <- read.table('./train/X_train.txt') 
+y_train <- read.table('./train/y_train.txt') 
+subject_train <- read.table('./train/subject_train.txt')
 
 # TEST FILES
-x_test <- read.table("test/X_test.txt") 
-y_test <- read.table("test/y_test.txt") 
-subject_test <- read.table("test/subject_test.txt") 
+x_test <- read.table('./test/X_test.txt') 
+y_test <- read.table('./test/y_test.txt') 
+subject_test <- read.table('./test/subject_test.txt') 
 
 # COMMON FILES
-features <- read.table("features.txt") 
-activity_labels <- read.table("activity_labels.txt") 
+features <- read.table('./features.txt') 
+activity_labels <- read.table('./activity_labels.txt') 
 
 # -----------------------
 
@@ -88,6 +85,10 @@ tidy_data <- ddply(combined_data, .(Subject, Activity), function(x) colMeans(x[3
 # -----------------------
 
 # WRITING THE FILE FOR SUBMISSION
+
+# Move back to the main data directory
+setwd('..') 
+
 # Per the submission instructions, "upload your data set as a txt file created 
 #    with write.table() using row.name=FALSE"
 write.table(tidy_data, "tidy_data.txt", row.name=FALSE)
