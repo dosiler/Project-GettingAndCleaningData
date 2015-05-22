@@ -33,10 +33,10 @@ The script is intended to produce a tidy data set with averages for combinations
 
 C. About The Raw Source Data
 
-The data provided was collected from the accelerometers from the Samsung Galaxy S smartphone. See this site for a full description of the data: 
+The data provided was collected from the accelerometers from the Samsung Galaxy S smartphone. See this site for a full description of the data: <br>
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-The data can be downloaded here:
+The data can be downloaded here:<br>
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
 ==================================================================
