@@ -1,7 +1,7 @@
-# Project-GettingAndCleaningData
+# Code Book for the Course Project
 ==================================================================
 
-Code Book for the Course Project for Johns Hopkins U class "Getting and Cleaning Data" on Coursera
+For the Johns Hopkins University class "Getting and Cleaning Data" on Coursera
 
 ==================================================================
 
