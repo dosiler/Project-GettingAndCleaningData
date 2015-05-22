@@ -70,9 +70,9 @@ This is how the script executes the steps:
   1. Create one data set: Completion - combine the main file with the "subjects" and "activities" files
   5. Create the final tidy data set
 
-Note #2: About the descriptive variable names at step 4:
-In "David's personal course project FAQ" on the class discussion boards, there is a question that asks ...
-Q: Should I decompose the variable names
+Note #2: About the descriptive variable names at step 4:<br>
+In "David's personal course project FAQ" on the class discussion boards, there is a question that asks ...<br>
+Q: Should I decompose the variable names<br>
 A: No ... 
 
 A detailed explanation follows, which is omitted here. The variable names have been left as provided in the features.txt file in the source zipped archive. Instead, explanations of the variable names are provided in the code book
