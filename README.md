@@ -63,9 +63,9 @@ Note #1: The script does not execute the steps in the order shown above.
 This is how the script executes the steps:
   1. Create one data set: Partial - Reconsolidate the train and test files
   3. Descriptive Activity Names: Complete
-  2. Extract Mean and Std Dev: Two sub-steps
-     2.1. Identify the desired columns from the "features" file
-     2.2. Use the resulting subset to extract columns from the main file
+  2. Extract Mean and Std Dev: Two sub-steps<br>
+     2.1. Identify the desired columns from the "features" file<br>
+     2.2. Use the resulting subset to extract columns from the main file<br>
   4. Apply descriptive variable names: Complete
   1. Create one data set: Completion - combine the main file with the "subjects" and "activities" files
   5. Create the final tidy data set
