@@ -6,20 +6,22 @@ Johns Hopkins University / Coursera
 
 TABLE OF CONTENTS
 
-A. Raw Data Source
-B. Data Set Information
-C. Variables Of The Tidy Data Set
-D. Full List Of Variables In The Tidy Data Set
+A. Raw Data Source<br>
+B. Data Set Information<br>
+C. Variables Of The Tidy Data Set<br>
+D. Full List Of Variables In The Tidy Data Set<br>
 
 ==================================================================
 
 A. RAW DATA SOURCE
+
 The raw data was downloaded from here:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 ==================================================================
 
 B. DATA SET INFORMATION
+
 <reprinted from the above link>
 "The experiments have been carried out with a group of 30 volunteers within an age bracket of 19-48 years. Each person performed six activities ...
 - WALKING
@@ -33,6 +35,7 @@ B. DATA SET INFORMATION
 ==================================================================
 
 C. VARIABLES OF THE TIDY DATA SET
+
 The activities were quantified across 561 variables. The 'run_analysis.R' extracts only those variables containing 'mean' or 'std' (standard deviation) in their names. This leaves 66 of the original 561, plus two variables that were added (subject and activity). 
 
 THE FOLLOWING IS REPRINTED FROM THE FEATURES_INFO.TXT INCLUDED IN THE SOURCE ZIPPED ARCHIVE:
@@ -68,6 +71,7 @@ fBodyGyroJerkMag
 ==================================================================
 
 D. FULL LIST OF VARIABLES IN THE TIDY DATA SET
+
 Subject
 Activity
 tBodyAcc-mean()-X
