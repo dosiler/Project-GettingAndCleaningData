@@ -44,15 +44,9 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 D. Setup - Packages and Data Source
 
 Packages: The script loads and uses plyr at step 5. The package can be installed with this command:
-  install.packages("ply")
+  install.packages("plyr")
 
-Data Source: The zipped archive must be downloaded (from the link shown above), and the contents of the UCI HAR folder in the zip archive must be extracted to the working director. When completed, the following directories and files should appear in the working directory:
-    test <DIR>
-    train <DIR>
-    activity_labels.txt
-    features.txt
-    features_info.txt
-    README.txt
+Data Source: The zipped archive must be downloaded (from the link shown above). Then, the contents of the zip archive must be extracted to your working directory, such that the "UCI HAR Dataset" directory appears in your working directory.
 
 ==================================================================
 
