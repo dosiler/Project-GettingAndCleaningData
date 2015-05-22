@@ -19,9 +19,9 @@ F. Loading the Tidy Data Set back into R
 A. Elements of the Course Project Deliverable
 
 The course project deliverable includes the following files in this repository:
-  run_analysis.R : The script to perform the data manipulations described below
-  CodeBook.md : An explanation of the data and its variables that are produced by the script
-  README.md : This file which you are currently reading
+* run_analysis.R : The script to perform the data manipulations described below
+* CodeBook.md : An explanation of the data and its variables that are produced by the script
+* README.md : This file which you are currently reading
 
 ==================================================================
 
@@ -43,7 +43,7 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
 
 D. Setup - Packages and Data Source
 
-Packages: The script loads and uses plyr at step 5. The package can be installed with this command:
+Packages: The script loads and uses plyr at step 5. The package can be installed with this command:<br>
   install.packages("plyr")
 
 Data Source: The zipped archive must be downloaded (from the link shown above). Then, the contents of the zip archive must be extracted to your working directory, such that the "UCI HAR Dataset" directory appears in your working directory.
